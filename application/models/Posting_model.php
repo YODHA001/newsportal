@@ -15,7 +15,7 @@ class Posting_model extends CI_Model {
       $this->db->limit(4);
       return $this->db->get()->result();
    }
-
+ 
    public function getThread()
    {
       $this->db->from('posting');

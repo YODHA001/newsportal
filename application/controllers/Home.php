@@ -22,7 +22,7 @@ class Home extends CI_Controller {
       $data['popular']     = $this->posting->getMostPopular();
       $data['trending']    = $this->posting->getThread();
       $data['lastNews']    = $this->posting->getLastNews();
-      $data['video_game']  = $this->posting->getVideoGames();
+      $data['video_game']  = $this->posting->getVideoGames(); 
       $data['category']    = $this->category->getCategory();
 
       $data['page'] = 'home';
