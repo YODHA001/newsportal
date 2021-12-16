@@ -8,7 +8,7 @@
 <nav class="navbar navbar-light navbar-expand-lg navbar-light bg-light fixed-top home">
    <div class="container">
       <a href="<?= base_url() ?>" class="navbar-brand d-flex w-50 mr-auto">
-      <img src="<?= base_url('images/brand/logo-newsp.png') ?>" height="25" alt="">Online News Portaligniter
+      <img src="<?= base_url('images/brand/logo-newsp.png') ?>" height="25" alt="">Online News Portal
       </a> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
           <span class="navbar-toggler-icon"></span>
@@ -20,24 +20,7 @@
                   <a class="nav-link" href="<?= base_url("blog/category/$n->slug") ?>"><?= $n->category_name ?></a>
                </li>
             <?php endforeach ?>
-         </ul> 
-         <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item">
-               <a class="nav-link" href="<?= base_url() ?>">
-                  <i class="fa fa-twitter"></i>
-               </a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="<?= base_url() ?>">
-                  <i class="fa fa-instagram"></i>
-               </a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="<?= base_url() ?>">
-                  <i class="fa fa-facebook"></i>
-               </a>
-            </li>
-         </ul>
+        
       </div>
    </div>
 </nav>
