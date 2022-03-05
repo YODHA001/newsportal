@@ -5,7 +5,7 @@
          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-footer-widget ab_widgets">
                <div class="f_title">
-                  <h3>newsportaligniter.com</h3>
+                  <h3>newsportal.com</h3>
                </div>
                <p>The Best Place for News in the Best Place on Earth!</p>
             </div>
@@ -39,10 +39,11 @@
                <div class="f_title">
                   <h3>Social Networks</h3>
                </div>
-               <div class="col-lg-4 col-md-4 footer-social icon mx-auto">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-youtube-play"></i></a>
+               <div class="col-lg-5 col-md-5 footer-social icon mx-auto">
+                  <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                  <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
                </div>
             </div>
          </div>	
@@ -51,9 +52,7 @@
          <div class="col-lg-12">
             <div class="f_boder"></div>
          </div>
-         <p class="col-lg-8 col-md-8 footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        
       </div>
    </div>
 </footer>

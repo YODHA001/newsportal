@@ -13,7 +13,7 @@
                   <div class="container">
                      <div class="date text-center">
                         <a class="genric-btn success circle small" href="<?= base_url("blog/category/$f->slug") ?>"><?= $f->category_name ?></a>
-                        <a href="<?= base_url("blog/read/$f->seo_title") ?>"><i class="fa fa-calendar" aria-hidden="true"></i>March 14, 2018</a>
+                        <a href="<?= base_url("blog/read/$f->seo_title") ?>"> </a>
                      </div>
                      <h1 class="font-weight-light text-center"><?= $f->title ?></h1>
                      <p><?= character_limiter($f->content, 200) ?></p>
@@ -109,7 +109,6 @@
 
             <div class="tavel_food mt-5">
                <div class="main_title2">
-                  <h2>Gaming Corner</h2>
                </div>
                <div class="row">
                   <div class="col-lg-6">
