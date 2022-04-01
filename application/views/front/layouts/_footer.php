@@ -7,7 +7,7 @@
                <div class="f_title">
                   <h3>newsportal.com</h3>
                </div>
-               <p>The Best Place for News in the Best Place on Earth!</p>
+               <p>The Best Place to find the  different  category of News. </p>
             </div>
          </div>
          <div class="col-lg-4 col-md-6 col-sm-6">

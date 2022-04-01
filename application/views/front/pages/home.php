@@ -40,7 +40,6 @@
 <!--================ End Home Banner Area =================-->
 
 
-
 <!--================ Choice Area =================-->
 <section class="choice_area mt-4">
    <div class="container">

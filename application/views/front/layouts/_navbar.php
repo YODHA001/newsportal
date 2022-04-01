@@ -20,6 +20,15 @@
                   <a class="nav-link" href="<?= base_url("blog/category/$n->slug") ?>"><?= $n->category_name ?></a>
                </li>
             <?php endforeach ?>
+            </div>
+      <form action="<?php echo site_url('searching/index')?>"method="post" >
+      <div class="input-group">
+            <input type="text" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" name="searchdata"/>
+            <button type="submit" name="submit" class="btn btn-outline-danger">Search</button>
+      </div>
+      </form>
+   </div>
+
         
       </div>
    </div>
