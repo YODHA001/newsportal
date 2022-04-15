@@ -21,7 +21,7 @@ class Search_model extends CI_Model{
         
             $this->db->select("*");
             $this->db->from('posting');
-            $this->db->like('title', $data, 'both'); 
+            $this->db->like('content', $data, 'both'); 
             $this->db->join('category', 'category.id = posting. id_category');
             $this->db->where('posting.is_active', 'Y');
             $this->db->order_by('posting.id', 'desc');
