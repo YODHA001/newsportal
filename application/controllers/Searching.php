@@ -28,7 +28,7 @@
         $data['trending']    = $this->posting->getThread();
         $data['post'] = $post;
         $data['page'] = 'search';
-        $this->load->view('front/layouts/app', $data)
+        $this->load->view('front/layouts/app', $data);
 		
 	}
     }

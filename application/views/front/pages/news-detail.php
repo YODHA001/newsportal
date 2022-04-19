@@ -35,6 +35,7 @@
                      </div>
                   </div>
                </div>
+               <div class="blog_count"><?php echo "Blog view : <strong>".$count."</strong>" ?></div>
                <p><?= $posting->content ?></p>
             </div>
          </div>
@@ -46,5 +47,24 @@
       </div>
    </div>
 </section>
+
 <!--================End News Area =================-->
-	
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script>
+   
+   $(document).ready(function(){
+      var pid = "<?php echo $posting->id ?>";
+      $.ajax({
+        url:'<?=base_url()?>blog/count_inc',
+        method: 'post',
+        data: {pid: pid},
+        dataType: 'json',
+        success: function(response){
+            console.log('recorded');
+        },
+
+      });
+
+   });
+
+</script>

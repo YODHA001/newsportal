@@ -5,7 +5,8 @@
       <div class="row">
          <div class="col-lg-8">
             <div class="main_title2">
-               <h2>Search Results</h2>
+               <h2>Search Results </h2>
+               <p style="padding-left: 15px;"><?php echo ($sdata) ? " Showing result for : <strong>".$sdata." ( ".$count." )</strong>":'' ?> </p>
             </div>
             <div class="latest_news">
                <?php foreach($post as $p)  :?>
